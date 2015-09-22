@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/trim_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" >
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/apimage1"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/apimage2"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/apimage3"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/apimage4"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/container"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/go_buy"
+            style="@style/btnStyleArsenic"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="보러가기"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
